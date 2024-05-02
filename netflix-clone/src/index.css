@@ -15,3 +15,31 @@
 body{
   background: #111;
 }
+/* mike */
+/* Import Bootstrap's CSS file */
+/* @import url("bootstrap/dist/css/bootstrap.min.css");
+
+:root{
+  --font-base: 'Lexen Deca', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+  --bg-color: #141414
+  --primary-color: #fffffff;
+  --secondary-color: #e50914;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #111;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
