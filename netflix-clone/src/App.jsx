@@ -18,25 +18,26 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Home />  */}
-    <Routes>
-      
-       
-       <Route path="/" element ={<><Header/> <Outlet/> <Footer/></>}>
-
-        <Route path="/home" element = {<Home/>}/>
-        <Route path="/tvshow" element ={<TVShows/>}/>
-        <Route path="/movies"element={<Movies/>} />
-        <Route path="/new&popular" element={<NewPopular/>} />
-        <Route path="/mylist" element={<MyList/>} />
+      <Routes>
         <Route
-          path="/browsebylanguages"
-          element={<BrowsebyLanguage />}
-        />
+          path="/"
+          element={
+            <>
+              <Header /> <Outlet />
+              <Footer />
+            </>
+          }
+        >
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/tvshows" element={<TVShows />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/new&popular" element={<NewPopular />} />
+          <Route path="/mylist" element={<MyList />} />
+          <Route path="/browsebylanguages" element={<BrowsebyLanguage />} />
         </Route>
-        <Route path="*" element={<Four04/>} />
-      
-    </Routes>
+        <Route path="*" element={<Four04 />} />
+      </Routes>
     </div>
   );
 }

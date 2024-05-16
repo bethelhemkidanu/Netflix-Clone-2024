@@ -15,14 +15,7 @@ function NavSection() {
             <Navbar.Brand className="navLink" href="#home">
               <img src={NetflixLogo} alt="Netflix Logo" width="90" />
             </Navbar.Brand>
-            {/* <div className=" center">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">TVShows</Nav.Link>
-              <Nav.Link href="#Movies">Movies</Nav.Link>
-              <Nav.Link href="#New&Popular">New & Popular</Nav.Link>
-              <Nav.Link href="#MyList">My List</Nav.Link>
-              <Nav.Link href="#BrowsebyLanguages">Browse by Languages</Nav.Link>
-            </div> */}
+           
             {/* drop-down */}
             <div className=" DropDown ">
               <NavDropdown title="Browse" id="basic-nav-dropdown">

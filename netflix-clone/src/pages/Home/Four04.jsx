@@ -4,8 +4,12 @@ import Header from '../../components/Header/Header'
 const Four04 = () => {
   return (
     <div>
-      <h1>oops, Lost Your Way</h1>
       <Header/>
+      <h1 style={{color:"white",
+        padding:"200px",
+        textAlign:"center"
+      }}>oops, Lost Your Way</h1>
+      
     </div>
   )
 }

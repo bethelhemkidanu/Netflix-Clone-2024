@@ -7,7 +7,7 @@ import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { Link } from "react-router-dom";
 import NavSection from "./Nav";
-// import DropdownMenu from "./Browse";
+
 const Header = () => {
   const [show, handleShow] = useState(false);
   useEffect(() => {
@@ -31,14 +31,7 @@ const Header = () => {
             <li>
               <img src={NetflixLogo} alt="Netflix Logo" width="100" />
             </li>
-            {/* <li>
-              <a href="/browse">
-                <div className="browse">Browse</div>
-                <div className="browse">
-                  <ArrowDropDownIcon />
-                </div>
-              </a>
-            </li> */}
+            
             <li>
               <Link to="/home">Home</Link>
             </li>
@@ -57,24 +50,7 @@ const Header = () => {
             <li>
               <Link to="/browsebylanguages">Browse by Languages</Link>
             </li>
-            {/* <li>
-              <a href="/Home">Home</a>
-            </li>
-            <li>
-              <a href="/TVShows">TVShows</a>
-            </li>
-            <li>
-              <a href="/Movies">Movies</a>
-            </li>
-            <li>
-              <a href="/Movies"></a>
-            </li>
-            <li>
-              <a href="/MyList">MyList</a>
-            </li>
-            <li>
-              <a href="/Browse by Languages">Browse by Languages</a>
-            </li> */}
+            
           </ul>
         </div>
         <div className="header_right">

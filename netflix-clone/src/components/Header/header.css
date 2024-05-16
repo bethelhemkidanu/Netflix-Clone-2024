@@ -4,15 +4,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-   /* background-color: rgb(148, 132, 132); */
-   /* background-color: rgb(20,20,20); */
    background-color: transparent;
    height: 10vh;
    color: white;
    transition: all 0.5s;
    transition-timing-function: ease-in;
    z-index: 1;
-   /* background-color: red;   */
+   
 }
 .nav_black{
    background-color: rgb(20,20,20);
@@ -22,7 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: yellow; */
+ 
 }
 .header_left ul{
   width: 140%;
@@ -31,7 +29,7 @@
   align-items: center;
   list-style: none;
   cursor: pointer;
-  /* background-color: lightblue; */
+  
 }
 
 .header_left a{
@@ -44,17 +42,11 @@
   justify-content: space-around;
   list-style: none;
   cursor: pointer;
-  /* background-color: lightgreen; */
 }
 .browse{
  display: none;
 }
-.header_left ul li:nth-child(2) {
-  display: none;
-}
-/* .browse{
-display: none;
-  } */
+
  @media screen and (max-width: 768px){
  .header_left ul li{
   display: none;
@@ -70,7 +62,6 @@ display: none;
 .DropDownContent{
   background-color: black;
   font-size: 25px;
-  /* font-weight: 800; */
   color: grey;
   border: none !important;
 }
@@ -81,19 +72,7 @@ display: none;
   color: #fff;
 }
 }
- /* .navLink{
-  margin-top: 200px;
-  }} */
-/* .DropDownContent {
-list-style: none;
-  background-color: black;
-  width: 300px;
-  text-decoration: none;  */
-  /* margin-top: 200px; */
-/* }
-.DropDownContent NavDropdown.Item{
- margin-top: 200px; 
-} */
+
  .header_left ul li a   {
   display: flex;
  }
@@ -101,52 +80,3 @@ list-style: none;
   display: block;
   
 }
-/* .browse{
-display: block;
-  }
-.me-auto{
-  display: flex;
-  justify-content: left;
-  margin-top: 130px;
-}
-
- } */
- /* drop-down */
- /* .me-auto{
-  display: flex;
-  justify-content: left;
-  margin-top: 130px;
-} */
-
-/* #basic-nav-dropdown{
-text-decoration: none;
-color: white;
-position:absolute;
-  font-size: large;
-} */
-/* .DropDown{
-margin-top: 10px ;
-margin-left: 30px;
-
-} */
-
-/* #basic-nav-dropdown p{
-  display: inline-grid;
-  
-  
-} */
-/* .DropDownContent {
-list-style: none;
-  background-color: black;
-  width: 300px;
-  text-decoration: none;
-  margin-top: 200px;
-} */
-/* .DropDownContent p{
-  
-  list-style: none;
-color:grey;
-text-align: center;
-padding-bottom: 10px;
-text-decoration: none;
-} */

@@ -8,11 +8,9 @@ import RowList from '../../components/Rows/Rowlist/RowList'
 const Home = () => {
   return (
     <>
-       
-      {/* <Header /> */}
+      
       <Banner/>
       <RowList/>
-      {/* <Footer /> */}
     </>
   );
 }
